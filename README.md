@@ -92,7 +92,7 @@ ci3webapp/
 
 ### Testing Database Connection
 
-Visit: `http://localhost/ci3webapp/test_db.php`
+Visit: `http://103.167.113.106/ci3webapp/test_db.php`
 
 This will:
 - Test database connectivity
@@ -102,7 +102,7 @@ This will:
 
 ### Main Application
 
-Visit: `http://localhost/ci3webapp/`
+Visit: `http://103.167.113.106/ci3webapp/`
 
 The application will load the Users management interface where you can:
 
