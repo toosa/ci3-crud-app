@@ -1,0 +1,52 @@
+# CodeIgniter 3 .gitignore
+
+# Application logs
+application/logs/*
+!application/logs/.htaccess
+!application/logs/index.html
+
+# Cache files
+application/cache/*
+!application/cache/.htaccess
+!application/cache/index.html
+
+# User uploaded files (if any)
+uploads/
+user_guide_src/build/*
+user_guide_src/cilexer/build/*
+user_guide_src/cilexer/dist/*
+user_guide_src/cilexer/pycilexer.egg-info/*
+/vendor/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Environment files
+.env
+.env.local
+.env.production
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# Database configuration (use database.example.php as template)
+application/config/database.php
+
+# Backup files
+*.backup
+*.bak
+*.orig
